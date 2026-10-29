@@ -5,14 +5,14 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Location](https://img.shields.io/badge/Location-Oyigbo%2C%20Rivers%20State%2C%20Nigeria-success)
 
-A modern, high-converting digital storefront and business showcase for **SommyCake**, an artisanal celebration cake studio based in **Oyigbo, Rivers State, Nigeria**.
+A modern, high-converting digital storefront and business showcase for **SommyCake**, an artisanal celebration cake studio based at **Spiritan Close, Mirinwanyi-Asa, Afam Road, Oyigbo, Rivers State, Nigeria**.
 
 ---
 
 ## 🎂 Brand Overview
 
 - **Founder & Lead Baker:** Precious Okeke Chisom (Sommy)
-- **Studio Location:** Oyigbo, Rivers State, Nigeria
+- **Studio Location:** Spiritan Close, Mirinwanyi-Asa, Afam Road, Oyigbo, Rivers State, Nigeria
 - **Service Coverage:** Studio pickups in Oyigbo, prompt deliveries across Port Harcourt, Eleme, Trans-Amadi, Old/New GRA, and surrounding communities.
 - **Official Contact:**
   - **Phone / WhatsApp:** +234 816 788 6766 (`08167886766`)

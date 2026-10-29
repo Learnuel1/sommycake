@@ -118,8 +118,8 @@
 | Item | Value / Link | Status |
 |---|---|---|
 | Business name | SommyCake | ✅ |
-| Physical address | Oyigbo, Rivers State, Nigeria | ✅ Defined |
-| Google Maps link | https://maps.google.com/?q=Oyigbo,+Rivers+State,+Nigeria | ✅ Defined |
+| Physical address | Spiritan Close, Mirinwanyi-Asa, Afam Road, Oyigbo, Rivers State, Nigeria | ✅ Defined |
+| Google Maps link | https://maps.google.com/?q=Spiritan+Close,+Mirinwanyi-Asa,+Afam+Road,+Oyigbo,+Rivers+State,+Nigeria | ✅ Defined |
 | Phone number | 08167886766 (+234 816 788 6766) | ✅ Defined |
 | WhatsApp number | https://wa.me/2348167886766 | ✅ Defined |
 | Email address | chisomokeke103@gmail.com | ✅ Defined |

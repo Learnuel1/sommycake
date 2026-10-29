@@ -1,7 +1,7 @@
 /**
  * SommyCake - Modern Artisan Confectionery Web Application
  * Founder: Precious Okeke Chisom
- * Location: Oyigbo, Rivers State, Nigeria
+ * Location: Spiritan Close, Mirinwanyi-Asa, Afam Road, Oyigbo, Rivers State, Nigeria
  * 
  * Features:
  * - Mobile Slide-In Navigation Drawer
