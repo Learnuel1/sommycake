@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SommyCake | Bespoke Celebration Cakes in Port Harcourt, Rivers State</title>
+  <meta name="description" content="SommyCake crafts bespoke celebration cakes for birthdays, weddings, anniversaries, and corporate events in Port Harcourt, Rivers State. Fast WhatsApp ordering & reliable chilled delivery.">
+  <meta name="keywords" content="cakes in Port Harcourt, wedding cakes Rivers State, birthday cake Port Harcourt, bespoke cakes Peter Odili, cake delivery GRA Port Harcourt, SommyCake">
+  
+  <!-- OpenGraph / Social Media Metadata -->
+  <meta property="og:title" content="SommyCake | Port Harcourt's Trusted Artisan Celebration Cakes">
+  <meta property="og:description" content="Artisanal craftsmanship, transparent pricing, and seamless WhatsApp ordering across Port Harcourt and surrounding Rivers State communities.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80">
+  
+  <!-- Google Fonts: Playfair Display (Serif) & Inter (Sans-Serif) as specified in FrontEnd Design Spec -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for clean UI feedback -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Local Service Bar -->
+  <aside class="top-notice-bar" aria-label="Local Service Notice">
+    <div class="container notice-flex">
+      <div class="notice-badge">
+        <i class="fa-solid fa-cake-candles"></i>
+        <span>Artisanal Celebration Cakes &bull; Fresh Studio Baking in <strong>Port Harcourt</strong></span>
+      </div>
+      <div>
+        <span>Need a cake this week?</span>
+        <a href="#enquiry" class="notice-link">Check Availability via WhatsApp &rarr;</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Allergen & Dietary Safety Trust Banner (Above-the-Fold per SRD-03) -->
+  <div class="allergen-banner" role="status">
+    <div class="container allergen-content">
+      <i class="fa-solid fa-shield-halved allergen-icon"></i>
+      <span><strong>Food Safety & Dietary Care:</strong> We provide full allergen disclosure. Nut-free, low-sugar, and alcohol-free recipes gladly accommodated upon request.</span>
+    </div>
+  </div>
+
+  <!-- Sticky Site Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="SommyCake Home">
+        <i class="fa-solid fa-crown logo-crown"></i>
+        <span>Sommy<span class="accent-word">Cake</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu (Occasion-Led per Spec) -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#occasions" class="nav-link">Occasions</a></li>
+          <li><a href="#deliveries" class="nav-link">Delivery History</a></li>
+          <li><a href="#videos" class="nav-link">Videos</a></li>
+          <li><a href="#sizes" class="nav-link">Serving Guide</a></li>
+          <li><a href="#baker" class="nav-link">Meet Sommy</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Group -->
+      <div class="header-actions">
+        <a href="#enquiry" class="btn btn-primary btn-sm">
+          <i class="fa-brands fa-whatsapp"></i> Order Now
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-In Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="drawer-top">
+        <div class="brand-logo">
+          <span>Sommy<span class="accent-word">Cake</span></span>
+        </div>
+        <button class="drawer-close" id="drawerClose" aria-label="Close Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <nav class="drawer-menu">
+        <a href="#home" class="drawer-link">Home</a>
+        <a href="#occasions" class="drawer-link">Browse Occasions</a>
+        <a href="#deliveries" class="drawer-link">Recent Delivery History</a>
+        <a href="#videos" class="drawer-link">Finished Cakes (Videos)</a>
+        <a href="#sizes" class="drawer-link">Sizes &amp; Servings Guide</a>
+        <a href="#baker" class="drawer-link">Meet the Baker</a>
+        <a href="#reviews" class="drawer-link">Customer Reviews</a>
+        <a href="#faq" class="drawer-link">Frequently Asked Questions</a>
+        <a href="#contact" class="drawer-link">Studio &amp; Delivery Areas</a>
+        <a href="#enquiry" class="drawer-link highlight"><i class="fa-brands fa-whatsapp"></i> WhatsApp Custom Order</a>
+      </nav>
+      <div class="drawer-footer">
+        <p><i class="fa-solid fa-user"></i> Founder: Precious Okeke Chisom</p>
+        <p><i class="fa-solid fa-phone"></i> <a href="tel:+2348167886766" style="color:inherit;">08167886766</a></p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:chisomokeke103@gmail.com" style="color:inherit;">chisomokeke103@gmail.com</a></p>
+        <p><i class="fa-solid fa-location-dot"></i> Oyigbo, Rivers State, Nigeria</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="location-pill">
+            <i class="fa-solid fa-crown"></i> Artisanal Celebration Cakes &bull; Port Harcourt, Nigeria
+          </div>
+          <h1 class="hero-title">
+            Artisanal Cakes Crafted For <br>
+            <span class="caramel-word">Unforgettable</span> Milestone Moments.
+          </h1>
+          <p class="hero-subtitle">
+            From viral minimalist bento cakes to grand multi-tier wedding centerpieces. Baked fresh with pure dairy butter, rich Belgian cocoa, and delivered with care directly to your celebration.
+          </p>
+
+          <!-- Occasion Fast-Selector (Design Spec Section 6) -->
+          <div class="occasion-quick-select">
+            <span class="label">What are you celebrating?</span>
+            <div class="occasion-pills">
+              <button type="button" class="occasion-pill-btn active" data-occasion="Birthday Celebration">🎂 Birthday</button>
+              <button type="button" class="occasion-pill-btn" data-occasion="Wedding / Traditional Marriage">💍 Wedding</button>
+              <button type="button" class="occasion-pill-btn" data-occasion="Anniversary">🥂 Anniversary</button>
+              <button type="button" class="occasion-pill-btn" data-occasion="Baby Shower / Naming">👶 Baby Shower</button>
+              <button type="button" class="occasion-pill-btn" data-occasion="Corporate Event">🏢 Corporate</button>
+              <button type="button" class="occasion-pill-btn" data-occasion="Bento Lunchbox Treat">🎁 Bento Treat</button>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#enquiry" class="btn btn-primary btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Submit Custom Enquiry
+            </a>
+            <a href="#occasions" class="btn btn-secondary btn-lg">
+              View Cake Gallery
+            </a>
+          </div>
+
+          <!-- Trust Bar (Design Spec Section 6) -->
+          <div class="hero-trust-row">
+            <div class="trust-metric">
+              <strong>4.9 &starf;</strong>
+              <span>500+ Verified Reviews</span>
+            </div>
+            <div class="trust-metric">
+              <strong>100%</strong>
+              <span>Punctual Safe Delivery</span>
+            </div>
+            <div class="trust-metric">
+              <strong>Artisanal</strong>
+              <span>Fresh Morning Baking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Element -->
+        <div class="hero-media-wrap">
+          <div class="hero-img-card">
+            <img src="assets/images/pexels/hero-cake.jpg" alt="Signature SommyCake Handcrafted Celebration Cake" width="800" height="480">
+            
+            <div class="hero-floating-card top">
+              <div class="float-icon"><i class="fa-solid fa-cake-candles"></i></div>
+              <div class="float-info">
+                <strong>Signature Celebration Cake</strong>
+                <span>Starting from ₦25,000</span>
+              </div>
+            </div>
+
+            <div class="hero-floating-card bottom">
+              <div class="float-icon green"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="float-info">
+                <strong>WhatsApp-First Ordering</strong>
+                <span>08167886766 &bull; Direct Chat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Brand Values Bar (SommyCake Brand Foundation Section 5) -->
+    <section class="values-bar" aria-label="Brand Values">
+      <div class="container values-grid">
+        <div class="value-item">
+          <div class="value-icon"><i class="fa-solid fa-paint-brush"></i></div>
+          <h3>Craftsmanship</h3>
+          <p>Every tier is sculpted with culinary precision, moisture-rich crumb, and artistic frosting techniques.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <h3>Dietary Trust</h3>
+          <p>Full ingredient and allergen transparency so you and your guests celebrate with complete peace of mind.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon"><i class="fa-solid fa-van-shuttle"></i></div>
+          <h3>Reliable Safe Delivery</h3>
+          <p>Carefully stabilized packaging and chilled vehicle transit to homes, event centres, and venues.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>Warm Hospitality</h3>
+          <p>Direct conversation with Sommy and our team through WhatsApp. Personal care for every celebration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Occasion-Led Catalog Grid (US-01 Browse by Occasion) -->
+    <section class="occasions-section" id="occasions">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Browse by Occasion</span>
+          <h2 class="section-title">Designed for Your Special Milestone</h2>
+          <p class="section-subtitle">Choose your celebration category to discover signature flavour pairings and starting prices in Nigerian Naira.</p>
+        </div>
+
+        <div class="occasions-grid">
+          
+          <!-- Birthday Cakes -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/birthday-cake.jpg" alt="Birthday Celebration Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Birthdays</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Birthday Celebrations</h3>
+                <p>Colourful, celebratory layered cakes customized with personalized toppers, chocolates, and velvet frosting.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦25,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Birthday Celebration">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wedding & Traditional Centerpieces -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/wedding-cake.jpg" alt="Majestic Multi-Tier Wedding Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Weddings &amp; Tiers</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Wedding Centerpieces</h3>
+                <p>Architectural multi-tier masterworks featuring hand-crafted sugar flowers, textured fondant, and gold leaf accents.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦95,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Wedding / Traditional Marriage">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Bento / Lunchbox Cakes -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/bento-cake.jpg" alt="Minimalist Bento Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Bento &amp; Mini</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Korean-Style Bento Cakes</h3>
+                <p>Charming 4-inch lunchbox cakes with custom handwritten messages. Ideal for intimate dates and spontaneous desk surprises.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦12,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Bento Lunchbox Treat">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Anniversaries & Romance -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/anniversary-cake.jpg" alt="Romantic Anniversary Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Anniversaries</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Anniversaries &amp; Romance</h3>
+                <p>Heart-shaped cakes, velvety chocolate sponges, and elegant floral arrangements created for milestones of love.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦35,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Anniversary">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Corporate Events & Milestones -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/corporate-cake.jpg" alt="Corporate Celebration Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Corporate</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Corporate &amp; Staff Celebrations</h3>
+                <p>Branded cakes matching corporate colour palettes, anniversary logos, and bulk dessert gift packages for company milestones.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦50,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Corporate Event">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Baby Showers & Dedications -->
+          <article class="occasion-card">
+            <div class="occasion-img-wrap">
+              <img src="assets/images/pexels/babyshower-cake.jpg" alt="Baby Shower Celebration Cakes by SommyCake" loading="lazy">
+              <span class="occasion-badge">Baby Showers</span>
+            </div>
+            <div class="occasion-body">
+              <div>
+                <h3>Baby Showers &amp; Dedications</h3>
+                <p>Soft pastel designs, teddy bear sugar sculptures, and delicate cloud textures celebrating new arrivals.</p>
+              </div>
+              <div class="occasion-footer">
+                <div class="starting-price">Starting from <strong>₦30,000</strong></div>
+                <button type="button" class="btn btn-sm btn-secondary select-occasion-btn" data-occasion="Baby Shower / Naming">Inquire &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Real Delivery History: Verified Celebrations -->
+    <section class="deliveries-section" id="deliveries">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Proof of Celebration</span>
+          <h2 class="section-title">Recent Delivery History</h2>
+          <p class="section-subtitle">
+            Authentic snapshots of finished customer orders, freshly boxed treats, and celebration centerpieces dispatched from our studio.
+          </p>
+        </div>
+
+        <div class="deliveries-grid">
+          
+          <!-- Delivery 1 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20261027-WA0002.jpg" alt="Delivered Custom Celebration Cake by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">October 2026 &bull; Custom Milestone</span>
+              <h4>Deluxe Celebration Drip Cake</h4>
+              <p>Freshly baked and safely dispatched in chilled packaging for a special birthday milestone.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Deluxe Celebration Drip Cake">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 2 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20261027-WA0001.jpg" alt="Delivered Bento Lunchbox Surprise by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">October 2026 &bull; Surprise Gifting</span>
+              <h4>Korean-Style Bento Box</h4>
+              <p>Hand-piped lunchbox cake ordered for a spontaneous romantic surprise celebration.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Korean-Style Bento Box">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 3 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20261017-WA0006.jpg" alt="Delivered Birthday Celebration Cake by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">October 2026 &bull; Birthday Party</span>
+              <h4>Signature Layered Celebration Drip</h4>
+              <p>Moist cocoa sponge layered with whipped vanilla frosting and artisan chocolate confections.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Signature Layered Celebration Drip">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 4 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20261017-WA0007.jpg" alt="Delivered Birthday Celebration Cake by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">October 2026 &bull; Birthday Celebration</span>
+              <h4>Birthday Celebrations</h4>
+              <p>Freshly baked custom birthday cake decorated with rich chocolate cream, celebratory sprinkles, and personalized gold topper.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Birthday Celebrations">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 5 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20261017-WA0024.jpg" alt="Delivered Royal Blue Birthday Cake by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">October 2026 &bull; Birthday Celebration</span>
+              <h4>Royal Blue Celebration Cake</h4>
+              <p>Two-tone blue and white velvet sponge with hand-piped rosettes and golden celebration topper.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Royal Blue Celebration Cake">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 6 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20260529-WA0004.jpg" alt="Delivered Corporate Treat Box by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">May 2026 &bull; Corporate Milestone</span>
+              <h4>Celebration Event Box</h4>
+              <p>Corporate staff appreciation treat package delivered directly to company offices.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Celebration Event Box">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Delivery 7 -->
+          <article class="delivery-card">
+            <div class="delivery-img-wrap">
+              <img src="assets/images/IMG-20260529-WA0005.jpg" alt="Delivered Celebration Cake by SommyCake" loading="lazy">
+              <span class="delivery-pill-status"><i class="fa-solid fa-circle-check"></i> Delivered</span>
+            </div>
+            <div class="delivery-card-info">
+              <span class="delivery-date-tag">May 2026 &bull; Family Celebration</span>
+              <h4>Pastel Celebration Box</h4>
+              <p>Freshly baked custom pastel cake dispatched safely for a private family milestone dinner.</p>
+              <div class="delivery-card-cta">
+                <button type="button" class="btn btn-sm btn-secondary reorder-style-btn" data-style="Pastel Celebration Box">Order Similar Style &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Showcase: Finished Cakes in Motion -->
+    <section class="video-showcase-section" id="videos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Finished Cakes in Motion</span>
+          <h2 class="section-title">Watch Our Finished Cakes in Motion</h2>
+          <p class="section-subtitle">
+            Experience the velvety crumb, delicate piping artistry, and celebration reveals fresh from our kitchen.
+          </p>
+        </div>
+
+        <div class="video-grid">
+          
+          <!-- Video Card 1: Real SommyCake Studio Video 1 -->
+          <article class="video-card">
+            <div class="video-media-container">
+              <video class="showcase-video" poster="assets/images/IMG-20261027-WA0002.jpg" preload="metadata" playsinline loop muted controls>
+                <source src="assets/videos/VID-20261027-WA0003.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <button type="button" class="video-play-overlay" aria-label="Play Artisan Cake Reveal video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-tag-pill"><i class="fa-solid fa-gem"></i> Handcrafted Artistry</span>
+            </div>
+            <div class="video-card-body">
+              <div class="video-meta-top">
+                <span class="video-location"><i class="fa-solid fa-crown"></i> Studio Showcase</span>
+              </div>
+              <h3 class="video-title">Artisan Celebration Cake 360° Reveal</h3>
+              <p class="video-description">Full 360-degree studio walkthrough showing intricate frosting textures, hand-piped detailing, and decadent finish.</p>
+              <div class="video-card-footer">
+                <button type="button" class="btn btn-sm btn-secondary video-inquire-btn" data-video-title="Artisan Celebration Cake 360° Reveal">Inquire About This &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video Card 2: Real SommyCake Studio Video 2 -->
+          <article class="video-card">
+            <div class="video-media-container">
+              <video class="showcase-video" poster="assets/images/IMG-20261017-WA0006.jpg" preload="metadata" playsinline loop muted controls>
+                <source src="assets/videos/VID-20260529-WA0006.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <button type="button" class="video-play-overlay" aria-label="Play Celebration Cake video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-tag-pill"><i class="fa-solid fa-cake-candles"></i> Celebration Finish</span>
+            </div>
+            <div class="video-card-body">
+              <div class="video-meta-top">
+                <span class="video-location"><i class="fa-solid fa-crown"></i> Studio Showcase</span>
+              </div>
+              <h3 class="video-title">Signature Celebration Cake in Motion</h3>
+              <p class="video-description">Live studio capture showcasing tender sponge height, gloss finish, and tailored celebration styling before safe dispatch.</p>
+              <div class="video-card-footer">
+                <button type="button" class="btn btn-sm btn-secondary video-inquire-btn" data-video-title="Signature Celebration Cake in Motion">Inquire About This &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Transparent Sizing & Servings Guide -->
+    <section class="sizing-section" id="sizes">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Portion &amp; Sizing Transparency</span>
+          <h2 class="section-title">Transparent Sizing for Every Guest Count</h2>
+          <p class="section-subtitle">We give you clear slice counts so every guest at your Rivers State gathering enjoys generous, mouth-watering servings.</p>
+        </div>
+
+        <div class="sizing-grid">
+          
+          <!-- Bento 4" -->
+          <div class="size-item-card">
+            <div class="size-header-info">
+              <h4>Bento Mini Cake (4")</h4>
+              <div class="size-servings">Feeds 1–2 Guests</div>
+              <div class="size-price-tag">From ₦12,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Eco-friendly lunchbox container</li>
+              <li><i class="fa-solid fa-check"></i> Cute wooden spoon &amp; candle</li>
+              <li><i class="fa-solid fa-check"></i> Custom handwritten inscription</li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-block select-size-cta" data-size="Bento 4-inch (1-2 Servings)" data-price="12000">Select Bento Size</button>
+          </div>
+
+          <!-- Standard 6" -->
+          <div class="size-item-card">
+            <div class="size-header-info">
+              <h4>Standard Celebration (6")</h4>
+              <div class="size-servings">Feeds 6–8 Guests (3 Tall Layers)</div>
+              <div class="size-price-tag">From ₦25,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Ideal for family dinners &amp; birthdays</li>
+              <li><i class="fa-solid fa-check"></i> Complimentary candle pack</li>
+              <li><i class="fa-solid fa-check"></i> Sturdy acrylic cake board</li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-block select-size-cta" data-size="Standard 6-inch (6-8 Servings)" data-price="25000">Select 6" Size</button>
+          </div>
+
+          <!-- Deluxe 8" (Popular) -->
+          <div class="size-item-card popular">
+            <span class="popular-ribbon">Most Popular</span>
+            <div class="size-header-info">
+              <h4>Deluxe Celebration (8")</h4>
+              <div class="size-servings">Feeds 12–16 Guests (4 Tall Layers)</div>
+              <div class="size-price-tag">From ₦38,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Our best-selling party centerpiece</li>
+              <li><i class="fa-solid fa-check"></i> Custom colour palette &amp; drip finish</li>
+              <li><i class="fa-solid fa-check"></i> Acrylic topper &amp; gift card included</li>
+            </ul>
+            <button type="button" class="btn btn-primary btn-block select-size-cta" data-size="Deluxe 8-inch (12-16 Servings)" data-price="38000">Select 8" Size</button>
+          </div>
+
+          <!-- Grand 10" -->
+          <div class="size-item-card">
+            <div class="size-header-info">
+              <h4>Grand Party (10")</h4>
+              <div class="size-servings">Feeds 20–25 Guests</div>
+              <div class="size-price-tag">From ₦55,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Milestone birthdays (30th, 40th, 50th)</li>
+              <li><i class="fa-solid fa-check"></i> Dual sponge flavour pairing option</li>
+              <li><i class="fa-solid fa-check"></i> Deluxe presentation box</li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-block select-size-cta" data-size="Grand 10-inch (20-25 Servings)" data-price="55000">Select 10" Size</button>
+          </div>
+
+          <!-- 2-Tier Celebration -->
+          <div class="size-item-card">
+            <div class="size-header-info">
+              <h4>2-Tier Celebration (6" + 8")</h4>
+              <div class="size-servings">Feeds 35–45 Guests</div>
+              <div class="size-price-tag">From ₦95,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Internal food-safe wooden dowels</li>
+              <li><i class="fa-solid fa-check"></i> Fresh floral or edible gold leaf accents</li>
+              <li><i class="fa-solid fa-check"></i> Chilled air-conditioned delivery</li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-block select-size-cta" data-size="2-Tier Celebration (35-45 Servings)" data-price="95000">Select 2-Tier</button>
+          </div>
+
+          <!-- 3-Tier Wedding -->
+          <div class="size-item-card">
+            <div class="size-header-info">
+              <h4>3-Tier Wedding Majestic</h4>
+              <div class="size-servings">Feeds 60+ Guests</div>
+              <div class="size-price-tag">From ₦180,000</div>
+            </div>
+            <ul class="size-features-list">
+              <li><i class="fa-solid fa-check"></i> Bespoke wedding sugarcraft consultation</li>
+              <li><i class="fa-solid fa-check"></i> On-site styling and venue delivery</li>
+              <li><i class="fa-solid fa-check"></i> Complimentary cake tasting box</li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-block select-size-cta" data-size="3-Tier Majestic Wedding (60+ Servings)" data-price="180000">Select 3-Tier</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet The Baker (Precious Okeke Chisom) Section (Brand Foundation Section 9.1 & US-03) -->
+    <section class="baker-section" id="baker">
+      <div class="container baker-grid">
+        <div class="baker-image-wrap">
+          <img src="assets/images/IMG-20261027-WA0002.jpg" alt="Artisan celebration cake crafted by Precious Okeke Chisom, Founder & Head Baker" loading="lazy">
+          <div class="baker-stamp">
+            <span class="title">Founder &amp; Head Baker</span>
+            <strong>Precious Okeke Chisom</strong>
+          </div>
+        </div>
+
+        <div class="baker-story">
+          <span class="section-tag">Meet the Baker</span>
+          <h2 class="section-title">"In Every Cake, A Personal Celebration."</h2>
+          <p class="lead-text">
+            Welcome to SommyCake. I am <strong>Precious Okeke Chisom</strong> (Sommy), founder and head cake designer. I believe that when a family or client trusts us with their milestone, they aren't just ordering flour and sugar—they are trusting us with their memories.
+          </p>
+          <p>
+            Based in <strong>Oyigbo, Rivers State</strong>, SommyCake was born out of a desire to eliminate mass-produced shortcuts. Every batch is baked fresh on the morning of delivery, using pure dairy butter, rich cocoa, and natural vanilla. We take the time to listen, customise, and ensure that what arrives at your celebration looks breathtaking and tastes unforgettable.
+          </p>
+          
+          <div class="baker-creeds">
+            <div class="creed-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Artisanal morning baking &bull; No stale pre-baked sponges</span>
+            </div>
+            <div class="creed-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Direct WhatsApp consultations with Precious (08167886766)</span>
+            </div>
+            <div class="creed-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Oyigbo studio pick-up &amp; reliable delivery across Rivers State</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="https://wa.me/2348167886766?text=Hello%20Precious!%20I%20would%20like%20to%20discuss%20a%20custom%20cake%20order." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Chat Directly with Precious
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-location-dot"></i> Studio &amp; Map Info
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive WhatsApp Order Enquiry Builder (US-02 Custom Order Enquiry) -->
+    <section class="enquiry-section" id="enquiry">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Custom Order Enquiry Form</span>
+          <h2 class="section-title">Tell Us What You Are Planning</h2>
+          <p class="section-subtitle">
+            Fill in your celebration details below. Our system will generate a neat, structured summary and open directly in WhatsApp with Sommy for quick confirmation!
+          </p>
+        </div>
+
+        <div class="enquiry-layout">
+          
+          <!-- Custom Order Form Panel -->
+          <div class="enquiry-form-card">
+            <form id="cakeEnquiryForm">
+              
+              <!-- Step 1: Customer Info -->
+              <div class="step-indicator">
+                <span class="step-circle">1</span>
+                <span>Contact Details</span>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="custName">Your Full Name <span class="req">*</span></label>
+                  <input type="text" id="custName" class="form-control" placeholder="e.g. Blessing Amadi" required>
+                </div>
+                <div class="form-group">
+                  <label for="custPhone">Phone / WhatsApp Number <span class="req">*</span></label>
+                  <input type="tel" id="custPhone" class="form-control" placeholder="e.g. 0803 123 4567" required>
+                </div>
+              </div>
+
+              <!-- Step 2: Occasion & Cake Specifications -->
+              <div class="step-indicator">
+                <span class="step-circle">2</span>
+                <span>Occasion &amp; Cake Specifications</span>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="occasionSelect">Occasion / Milestone <span class="req">*</span></label>
+                  <select id="occasionSelect" class="form-control" required>
+                    <option value="Birthday Celebration">Birthday Celebration</option>
+                    <option value="Wedding / Traditional Marriage">Wedding / Traditional Marriage</option>
+                    <option value="Anniversary">Anniversary Celebration</option>
+                    <option value="Baby Shower / Naming">Baby Shower / Naming</option>
+                    <option value="Corporate Event">Corporate Event / Staff Milestone</option>
+                    <option value="Bento Lunchbox Treat">Bento Lunchbox Surprise</option>
+                    <option value="Just Because / Personal Treat">Just Because / Personal Treat</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="sizeSelect">Cake Size &amp; Servings <span class="req">*</span></label>
+                  <select id="sizeSelect" class="form-control" required>
+                    <option value="Bento 4-inch (1-2 Servings)" data-base="12000">Bento Mini 4" (1-2 Servings) - ₦12,000</option>
+                    <option value="Standard 6-inch (6-8 Servings)" data-base="25000">Standard 6" (6-8 Servings) - ₦25,000</option>
+                    <option value="Deluxe 8-inch (12-16 Servings)" data-base="38000" selected>Deluxe 8" (12-16 Servings) - ₦38,000 (Popular)</option>
+                    <option value="Grand 10-inch (20-25 Servings)" data-base="55000">Grand 10" (20-25 Servings) - ₦55,000</option>
+                    <option value="2-Tier Celebration (35-45 Servings)" data-base="95000">2-Tier Celebration (35-45 Servings) - ₦95,000</option>
+                    <option value="3-Tier Majestic Wedding (60+ Servings)" data-base="180000">3-Tier Wedding (60+ Servings) - ₦180,000</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="flavourSelect">Preferred Flavour <span class="req">*</span></label>
+                  <select id="flavourSelect" class="form-control" required>
+                    <option value="Signature Red Velvet & Cream Cheese">Signature Red Velvet &amp; Cream Cheese</option>
+                    <option value="Belgian Chocolate Ganache Truffle">Belgian Chocolate Ganache Truffle</option>
+                    <option value="Bourbon Vanilla Sponge & Strawberry">Bourbon Vanilla Sponge &amp; Strawberry</option>
+                    <option value="Salted Caramel Buttercream">Salted Caramel Buttercream</option>
+                    <option value="Half Belgian Chocolate & Half Vanilla">Half Chocolate &amp; Half Vanilla</option>
+                    <option value="Bailey's Irish Cream Infused">Bailey's Cream Infusion (+₦3,000)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="inscriptionInput">Inscription on Cake</label>
+                  <input type="text" id="inscriptionInput" class="form-control" placeholder="e.g. Happy 40th Birthday Tonye!">
+                </div>
+              </div>
+
+              <!-- Step 3: Date & Delivery Area -->
+              <div class="step-indicator">
+                <span class="step-circle">3</span>
+                <span>Date &amp; Delivery Destination</span>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="deliveryDate">Event / Delivery Date <span class="req">*</span></label>
+                  <input type="date" id="deliveryDate" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="deliveryTimeSlot">Time Window <span class="req">*</span></label>
+                  <select id="deliveryTimeSlot" class="form-control" required>
+                    <option value="Morning (9:00 AM - 12:00 PM)">Morning (9:00 AM - 12:00 PM)</option>
+                    <option value="Afternoon (1:00 PM - 4:00 PM)">Afternoon (1:00 PM - 4:00 PM)</option>
+                    <option value="Evening (5:00 PM - 7:00 PM)">Evening (5:00 PM - 7:00 PM)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phLocationSelect">Delivery Area / Pickup Option <span class="req">*</span></label>
+                <select id="phLocationSelect" class="form-control" required>
+                  <option value="Self-Pickup at Studio (Oyigbo, Rivers State)" data-fee="0">Self-Pickup at Studio (Oyigbo, Rivers State) - Free</option>
+                  <option value="Oyigbo Local Delivery" data-fee="2000">Oyigbo Local Delivery (₦2,000)</option>
+                  <option value="Eleme / Oil Mill Axis" data-fee="3500">Eleme / Oil Mill Axis (₦3,500)</option>
+                  <option value="Old GRA & New GRA (Port Harcourt)" data-fee="3500">Old GRA / New GRA (₦3,500)</option>
+                  <option value="Peter Odili Road / Trans-Amadi" data-fee="3500">Peter Odili Road / Trans-Amadi (₦3,500)</option>
+                  <option value="Woji / Stadium Road / Rumuomasi" data-fee="3500">Woji / Stadium Road / Rumuomasi (₦3,500)</option>
+                  <option value="Rumuola / Rumuokwuta / Ada George" data-fee="4000">Rumuola / Ada George (₦4,000)</option>
+                  <option value="D-Line / Garrison / Diobu" data-fee="3500">D-Line / Garrison / Diobu (₦3,500)</option>
+                  <option value="Choba / Uniport Axis" data-fee="4500">Choba / Uniport Axis (₦4,500)</option>
+                  <option value="Other Locations / Outside Rivers State" data-fee="0">Other Locations (Confirm via WhatsApp)</option>
+                </select>
+              </div>
+
+              <!-- Step 4: Celebration Add-ons & Dietary Notes -->
+              <div class="step-indicator">
+                <span class="step-circle">4</span>
+                <span>Celebration Add-ons &amp; Dietary Notes</span>
+              </div>
+              <div class="addons-options-grid">
+                <label class="addon-pill-check">
+                  <input type="checkbox" name="addons" value="Sparkler Candle Set (+₦2,500)" data-price="2500">
+                  <span class="checkbox-box"></span>
+                  <span class="addon-info-text">
+                    <strong>Sparkler Candle Set</strong>
+                    <small>+₦2,500</small>
+                  </span>
+                </label>
+
+                <label class="addon-pill-check">
+                  <input type="checkbox" name="addons" value="Gold Acrylic Topper (+₦3,500)" data-price="3500">
+                  <span class="checkbox-box"></span>
+                  <span class="addon-info-text">
+                    <strong>Gold Acrylic Topper</strong>
+                    <small>+₦3,500</small>
+                  </span>
+                </label>
+
+                <label class="addon-pill-check">
+                  <input type="checkbox" name="addons" value="Handwritten Floral Card (+₦1,500)" data-price="1500">
+                  <span class="checkbox-box"></span>
+                  <span class="addon-info-text">
+                    <strong>Handwritten Floral Card</strong>
+                    <small>+₦1,500</small>
+                  </span>
+                </label>
+
+                <label class="addon-pill-check">
+                  <input type="checkbox" name="addons" value="Fresh Flower Bouquet (+₦15,000)" data-price="15000">
+                  <span class="checkbox-box"></span>
+                  <span class="addon-info-text">
+                    <strong>Fresh Rose Bouquet</strong>
+                    <small>+₦15,000</small>
+                  </span>
+                </label>
+              </div>
+
+              <div class="form-group" style="margin-top: 16px;">
+                <label for="dietaryNotes">Dietary Allergies &amp; Design Notes</label>
+                <textarea id="dietaryNotes" class="form-control" rows="3" placeholder="Please list any nut allergies, eggless preferences, or specific colour themes you want..."></textarea>
+              </div>
+
+              <div style="margin-top: 24px;">
+                <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
+                  <i class="fa-brands fa-whatsapp"></i> Send Order Enquiry to WhatsApp
+                </button>
+                <p style="font-size: 13px; color: var(--text-muted); text-align: center; margin-top: 10px;">
+                  <i class="fa-solid fa-lock"></i> No upfront payment required. Sommy will confirm your slot and details directly on WhatsApp.
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <!-- Sticky Live Summary Card (Starting Price Transparency per US-02) -->
+          <aside class="order-summary-card" aria-label="Enquiry Summary">
+            <div class="summary-card-header">
+              <h4><i class="fa-solid fa-receipt"></i> Order Summary</h4>
+              <span class="summary-live-tag">Live Estimate</span>
+            </div>
+
+            <div class="summary-card-body">
+              <div class="summary-line">
+                <span class="label">Occasion:</span>
+                <span class="val" id="sumOccasion">Birthday Celebration</span>
+              </div>
+              <div class="summary-line">
+                <span class="label">Selected Size:</span>
+                <span class="val" id="sumSize">Deluxe 8" (12-16 Servings)</span>
+              </div>
+              <div class="summary-line">
+                <span class="label">Flavour:</span>
+                <span class="val" id="sumFlavour">Signature Red Velvet</span>
+              </div>
+              <div class="summary-line">
+                <span class="label">Event Date:</span>
+                <span class="val" id="sumDate">Select date</span>
+              </div>
+              <div class="summary-line">
+                <span class="label">Delivery Area:</span>
+                <span class="val" id="sumLocation">Old GRA / New GRA</span>
+              </div>
+
+              <hr class="summary-hr">
+
+              <div class="pricing-breakdown">
+                <div class="price-row">
+                  <span>Base Cake:</span>
+                  <span id="baseVal">₦38,000</span>
+                </div>
+                <div class="price-row">
+                  <span>Delivery Fee:</span>
+                  <span id="deliveryVal">₦2,500</span>
+                </div>
+                <div class="price-row">
+                  <span>Add-ons Total:</span>
+                  <span id="addonsVal">₦0</span>
+                </div>
+              </div>
+
+              <div class="total-estimate-box">
+                <span class="title">Estimated Total:</span>
+                <span class="naira-val" id="grandTotalVal">₦40,500</span>
+              </div>
+
+              <div class="summary-guarantees">
+                <div class="guarantee-line">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <span>Baked fresh on delivery morning</span>
+                </div>
+                <div class="guarantee-line">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Average WhatsApp response: <strong>under 10 mins</strong></span>
+                </div>
+                <div class="guarantee-line">
+                  <i class="fa-solid fa-snowflake"></i>
+                  <span>Chilled, climate-controlled safe delivery</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof & Customer Reviews (SommyCake Brand Values: Trust) -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Sweet Words</span>
+          <h2 class="section-title">Loved by Families &amp; Event Planners</h2>
+          <p class="section-subtitle">Real experiences from celebrations, weddings, and milestones sweetened by SommyCake.</p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <div class="testimonial-card">
+            <div class="star-rating">
+              &starf;&starf;&starf;&starf;&starf;
+            </div>
+            <p class="testimonial-text">
+              "Sommy made my daughter's 5th birthday cake in Peter Odili Road. Not only was the pastel design breathtaking, but the vanilla and strawberry sponge was so tender and moist. The entire hall asked for the baker's contact!"
+            </p>
+            <div class="reviewer-meta">
+              <div class="avatar-badge">GA</div>
+              <div>
+                <strong>Grace Amadi</strong>
+                <span>Mother &amp; Resident (Peter Odili, PH)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="star-rating">
+              &starf;&starf;&starf;&starf;&starf;
+            </div>
+            <p class="testimonial-text">
+              "As an event planner in Port Harcourt, vendor punctuality is everything. SommyCake delivered our 3-tier wedding centerpiece to the venue in GRA two hours before the reception, pristine and perfectly chilled. 10/10 craftsmanship!"
+            </p>
+            <div class="reviewer-meta">
+              <div class="avatar-badge">KO</div>
+              <div>
+                <strong>Kelechi Okocha</strong>
+                <span>Lead Wedding Coordinator (Old GRA, PH)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="star-rating">
+              &starf;&starf;&starf;&starf;&starf;
+            </div>
+            <p class="testimonial-text">
+              "I ordered a surprise bento cake and champagne from Manchester, UK for my sister's promotion in Trans-Amadi. The WhatsApp communication was fast and polite, and they sent me a video of the surprise moment!"
+            </p>
+            <div class="reviewer-meta">
+              <div class="avatar-badge">TB</div>
+              <div>
+                <strong>Tamuno Briggs</strong>
+                <span>Diaspora Client (Manchester / Port Harcourt)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions (Accordion per FrontEnd Design Spec) -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-wrapper">
+        <div class="section-header text-center">
+          <span class="section-tag">Help &amp; Ordering Info</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Clear answers to help you order your celebration cake with complete confidence.</p>
+        </div>
+
+        <div class="faq-row">
+          <button type="button" class="faq-question-btn">
+            <span>How far in advance should I place my cake order?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer-panel">
+            <p>For standard celebration cakes and bento cakes, we recommend <strong>24 to 48 hours notice</strong>. For large multi-tier wedding cakes and custom themed sculptures, we advise booking <strong>2 to 4 weeks ahead</strong> to ensure date reservation and bespoke styling.</p>
+          </div>
+        </div>
+
+        <div class="faq-row">
+          <button type="button" class="faq-question-btn">
+            <span>How are cakes protected during transit and delivery?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Every cake is pre-chilled in our studio to firm the buttercream and fillings before departure. Multi-tier cakes are reinforced with internal food-safe wooden dowels and delivered strictly via <strong>air-conditioned vehicles</strong> with trained handlers who know how to protect delicate sugarcraft.</p>
+          </div>
+        </div>
+
+        <div class="faq-row">
+          <button type="button" class="faq-question-btn">
+            <span>Can I order from outside Nigeria (UK, US, Canada) for family back home?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Yes, absolutely! A significant number of our clients order from the UK, US, Canada, and Europe to celebrate loved ones back home. You can place your enquiry on our WhatsApp form and complete payment seamlessly via verified bank transfer or international debit cards. We can even capture photos and videos of the surprise delivery for you!</p>
+          </div>
+        </div>
+
+        <div class="faq-row">
+          <button type="button" class="faq-question-btn">
+            <span>Do you accommodate dietary requirements and allergies?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Yes! We take food allergies very seriously. Please specify in our enquiry form if you need nut-free preparation, eggless recipes, or reduced-sugar sponges. We maintain strict sanitation procedures in our kitchen.</p>
+          </div>
+        </div>
+
+        <div class="faq-row">
+          <button type="button" class="faq-question-btn">
+            <span>What are the payment terms?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Because every cake is freshly customized with perishable ingredients, we require payment confirmation before baking commences. Standard celebration cakes require 100% upfront confirmation, while wedding cakes require a <strong>50% deposit</strong> to lock your date and the balance before dispatch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Local Contact & Delivery Areas (US-04 Find Location & Hours) -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-banner">
+          <div>
+            <span class="section-tag">Rivers State Studio</span>
+            <h2 class="section-title" style="margin-bottom: 8px;">Let's Plan Your Cake</h2>
+            <p style="color: var(--text-muted); font-size: 15px;">
+              Have questions or want to discuss a custom design reference? Reach out to founder Precious Okeke Chisom directly.
+            </p>
+            
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                  <strong>Founder &amp; Head Baker:</strong>
+                  <span>Precious Okeke Chisom</span>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Studio &amp; Pick-Up Location:</strong>
+                  <span>Oyigbo, Rivers State, Nigeria</span>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Phone / WhatsApp:</strong>
+                  <span><a href="tel:+2348167886766">+234 816 788 6766</a> &bull; 08167886766</span>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Official Email:</strong>
+                  <span><a href="mailto:chisomokeke103@gmail.com">chisomokeke103@gmail.com</a></span>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <strong>Baking &amp; Order Hours:</strong>
+                  <span>Monday – Saturday: 8:00 AM – 6:30 PM (Sunday Deliveries by Pre-Order)</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="https://wa.me/2348167886766" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (08167886766)
+              </a>
+              <a href="https://maps.google.com/?q=Oyigbo,+Rivers+State,+Nigeria" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-map-location-dot"></i> View on Google Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="delivery-zones-box">
+            <h4><i class="fa-solid fa-truck" style="color: var(--accent);"></i> Delivery &amp; Pickup Coverage</h4>
+            <p>
+              Based in Oyigbo, we provide prompt, temperature-controlled delivery to homes, event centers, and venues across Rivers State:
+            </p>
+            <div class="zones-tags">
+              <span class="zone-tag">Oyigbo (Studio Hub)</span>
+              <span class="zone-tag">Eleme</span>
+              <span class="zone-tag">Oil Mill</span>
+              <span class="zone-tag">Old GRA</span>
+              <span class="zone-tag">New GRA</span>
+              <span class="zone-tag">Peter Odili Road</span>
+              <span class="zone-tag">Trans-Amadi</span>
+              <span class="zone-tag">Woji</span>
+              <span class="zone-tag">Stadium Road</span>
+              <span class="zone-tag">Rumuola</span>
+              <span class="zone-tag">Ada George</span>
+              <span class="zone-tag">D-Line</span>
+              <span class="zone-tag">Choba</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed Card -->
+        <div class="map-embed-card">
+          <div class="map-card-header">
+            <div>
+              <h3><i class="fa-solid fa-location-dot" style="color: var(--accent);"></i> SommyCake Studio on Google Maps</h3>
+              <p>Oyigbo, Rivers State, Nigeria &bull; Studio Pickups &amp; Delivery Dispatch Hub</p>
+            </div>
+            <a href="https://maps.google.com/?q=Oyigbo,+Rivers+State,+Nigeria" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Google Maps
+            </a>
+          </div>
+          <div class="map-responsive-container">
+            <iframe 
+              title="SommyCake Studio Location Map - Oyigbo, Rivers State, Nigeria"
+              src="https://maps.google.com/maps?q=Oyigbo%2C%20Rivers%20State%2C%20Nigeria&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="360" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer (Directive: Short Vision Statement in Footer) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" style="color: #FFFFFF; margin-bottom: 12px;">
+            <i class="fa-solid fa-crown" style="color: var(--accent);"></i>
+            <span>Sommy<span style="color: var(--accent);">Cake</span></span>
+          </a>
+          
+          <!-- Vision Statement verbatim per Brand Foundation Section 3 -->
+          <blockquote class="footer-vision-quote">
+            "To become Port Harcourt's most trusted and loved cake brand — the first name that comes to mind when Rivers State celebrates."
+          </blockquote>
+          
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/2348167886766" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h5>Occasions</h5>
+          <ul>
+            <li><a href="#occasions">Birthday Celebrations</a></li>
+            <li><a href="#occasions">Weddings &amp; Traditional</a></li>
+            <li><a href="#occasions">Anniversaries</a></li>
+            <li><a href="#occasions">Bento Lunchbox Treats</a></li>
+            <li><a href="#occasions">Corporate Events</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h5>Rivers State Hubs</h5>
+          <ul>
+            <li><a href="#contact">Oyigbo &amp; Eleme</a></li>
+            <li><a href="#contact">Old &amp; New GRA</a></li>
+            <li><a href="#contact">Peter Odili Road</a></li>
+            <li><a href="#contact">Trans-Amadi &amp; Woji</a></li>
+            <li><a href="#contact">Rumuola &amp; Ada George</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h5>Contact SommyCake</h5>
+          <ul style="color: #DDD2CA; font-size: 14px;">
+            <li><i class="fa-solid fa-user" style="color: var(--accent); margin-right: 6px;"></i> Precious Okeke Chisom (Founder)</li>
+            <li><i class="fa-solid fa-phone" style="color: var(--accent); margin-right: 6px;"></i> <a href="tel:+2348167886766" style="color: inherit;">+234 816 788 6766</a></li>
+            <li><i class="fa-brands fa-whatsapp" style="color: var(--whatsapp-green); margin-right: 6px;"></i> <a href="https://wa.me/2348167886766" style="color: inherit;" target="_blank" rel="noopener">08167886766 (WhatsApp)</a></li>
+            <li><i class="fa-solid fa-envelope" style="color: var(--accent); margin-right: 6px;"></i> <a href="mailto:chisomokeke103@gmail.com" style="color: inherit;">chisomokeke103@gmail.com</a></li>
+            <li><i class="fa-solid fa-location-dot" style="color: var(--accent); margin-right: 6px;"></i> Oyigbo, Rivers State, Nigeria</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-flex">
+          <p>&copy; <span id="footerYear">2026</span> SommyCake. All rights reserved. Founded by Precious Okeke Chisom &bull; Oyigbo, Rivers State, Nigeria.</p>
+          <p>Handcrafted cakes. Transparent pricing. WhatsApp convenience.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Persistent Floating WhatsApp Action Button -->
+  <a href="https://wa.me/2348167886766?text=Hello%20Precious!%20I%20would%20like%20to%20inquire%20about%20ordering%20a%20cake%20from%20SommyCake." 
+     class="floating-wa-pill" 
+     id="floatingWhatsAppBtn" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat with Precious on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Order on WhatsApp</span>
+  </a>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
