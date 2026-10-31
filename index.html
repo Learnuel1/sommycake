@@ -273,36 +273,152 @@
       </div>
     </div>
 
+    <!-- Mobile Drawer Backdrop Overlay -->
+    <div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+
     <!-- Mobile Slide-In Navigation Drawer -->
-    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
-      <div class="drawer-top">
-        <div class="brand-logo">
-          <img src="assets/images/sommy_cake_icon.jpg" alt="SommyCake Nav Icon" class="brand-logo-img" width="38" height="38">
-          <span>Sommy<span class="accent-word">Cake</span></span>
+    <aside class="mobile-drawer" id="mobileDrawer" aria-hidden="true" aria-label="Mobile Navigation Drawer">
+      <!-- Drawer Header with Brand & Close Button -->
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <img src="assets/images/sommy_cake_icon.jpg" alt="SommyCake Nav Icon" class="drawer-brand-img" width="44" height="44">
+          <div class="drawer-brand-text">
+            <span class="drawer-brand-title">Sommy<span class="accent-word">Cake</span></span>
+            <span class="drawer-brand-sub">Artisanal Studio &bull; Oyigbo</span>
+          </div>
         </div>
-        <button class="drawer-close" id="drawerClose" aria-label="Close Menu">
+        <button class="drawer-close" id="drawerClose" aria-label="Close Navigation Menu">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
-      <nav class="drawer-menu">
-        <a href="#home" class="drawer-link">Home</a>
-        <a href="#occasions" class="drawer-link">Browse Occasions</a>
-        <a href="#deliveries" class="drawer-link">Recent Delivery History</a>
-        <a href="#videos" class="drawer-link">Finished Cakes (Videos)</a>
-        <a href="#sizes" class="drawer-link">Sizes &amp; Servings Guide</a>
-        <a href="#baker" class="drawer-link">Meet the Baker</a>
-        <a href="#reviews" class="drawer-link">Customer Reviews</a>
-        <a href="#faq" class="drawer-link">Frequently Asked Questions</a>
-        <a href="#contact" class="drawer-link">Studio &amp; Delivery Areas</a>
-        <a href="#enquiry" class="drawer-link highlight"><i class="fa-brands fa-whatsapp"></i> WhatsApp Custom Order</a>
-      </nav>
-      <div class="drawer-footer">
-        <p><i class="fa-solid fa-user"></i> Sommy Cake</p>
-        <p><i class="fa-solid fa-phone"></i> <a href="tel:+2348167886766" style="color:inherit;">08167886766</a></p>
-        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:chisomokeke103@gmail.com" style="color:inherit;">chisomokeke103@gmail.com</a></p>
-        <p><i class="fa-solid fa-location-dot"></i> Spiritan Close, Mirinwanyi-Asa, Afam Road, Oyigbo, Rivers State, Nigeria</p>
+
+      <!-- Quick Action Buttons -->
+      <div class="drawer-quick-actions">
+        <a href="https://wa.me/2348167886766?text=Hello%20SommyCake!%20I%20would%20like%20to%20inquire%20about%20a%20celebration%20cake." target="_blank" rel="noopener noreferrer" class="drawer-quick-btn wa">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:+2348167886766" class="drawer-quick-btn tel">
+          <i class="fa-solid fa-phone"></i>
+          <span>08167886766</span>
+        </a>
       </div>
-    </div>
+
+      <!-- Scrollable Navigation Menu Body -->
+      <div class="drawer-scroll-body">
+        <span class="drawer-section-heading">EXPLORE STUDIO</span>
+        <nav class="drawer-menu">
+          <a href="#home" class="drawer-link active">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-house"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Home</strong>
+              <span>Artisan Cake Showcase</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#occasions" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-cake-candles"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Browse Occasions</strong>
+              <span>Birthdays, Weddings &amp; Bento</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#deliveries" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Recent Deliveries</strong>
+              <span>Verified Completed Orders</span>
+            </div>
+            <span class="drawer-badge green">Fresh</span>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#videos" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-circle-play"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Finished Cakes Videos</strong>
+              <span>Studio 360° Cake Reveals</span>
+            </div>
+            <span class="drawer-badge amber">Video</span>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#sizes" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-ruler-combined"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Sizes &amp; Price Guide</strong>
+              <span>Single &amp; Double Layers (₦10k–₦80k)</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#baker" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-heart"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Meet Sommy</strong>
+              <span>Founder Precious Okeke Chisom</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#reviews" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-star"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Client Reviews</strong>
+              <span>5-Star Rivers State Feedback</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#faq" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-circle-question"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Frequently Asked Questions</strong>
+              <span>Transit, Allergies &amp; Booking</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+
+          <a href="#contact" class="drawer-link">
+            <div class="drawer-icon-wrap"><i class="fa-solid fa-map-location-dot"></i></div>
+            <div class="drawer-link-meta">
+              <strong>Studio &amp; Coverage</strong>
+              <span>Spiritan Close, Oyigbo &bull; Map</span>
+            </div>
+            <i class="fa-solid fa-chevron-right drawer-chevron"></i>
+          </a>
+        </nav>
+
+        <!-- Prominent WhatsApp Order Card -->
+        <div class="drawer-order-card">
+          <div class="drawer-order-inner">
+            <span class="order-tag">Instant Estimate</span>
+            <h5>Plan Your Celebration Cake</h5>
+            <p>Customise flavours, sizes &amp; delivery slot in 2 minutes.</p>
+            <a href="#enquiry" class="btn btn-primary btn-block drawer-order-btn drawer-link">
+              <i class="fa-brands fa-whatsapp"></i> Custom Order via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drawer Footer -->
+      <div class="drawer-footer">
+        <div class="drawer-footer-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Spiritan Close, Mirinwanyi-Asa, Afam Rd, Oyigbo, Rivers State</span>
+        </div>
+        <div class="drawer-footer-socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/2348167886766" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </aside>
   </header>
 
   <!-- Main Content Landmark -->

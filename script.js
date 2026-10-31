@@ -38,16 +38,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileToggle = document.getElementById('mobileToggle');
   const drawerClose = document.getElementById('drawerClose');
   const mobileDrawer = document.getElementById('mobileDrawer');
+  const drawerBackdrop = document.getElementById('drawerBackdrop');
   const drawerLinks = document.querySelectorAll('.drawer-link');
 
   function openDrawer() {
     mobileDrawer.classList.add('open');
+    if (drawerBackdrop) drawerBackdrop.classList.add('active');
     mobileDrawer.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
 
   function closeDrawer() {
     mobileDrawer.classList.remove('open');
+    if (drawerBackdrop) drawerBackdrop.classList.remove('active');
     mobileDrawer.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
   }
@@ -55,16 +58,19 @@ document.addEventListener('DOMContentLoaded', () => {
   if (mobileToggle && mobileDrawer) {
     mobileToggle.addEventListener('click', openDrawer);
     if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
+    if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
 
     drawerLinks.forEach(link => {
-      link.addEventListener('click', closeDrawer);
+      link.addEventListener('click', () => {
+        drawerLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+        closeDrawer();
+      });
     });
 
-    // Close when clicking outside drawer content
-    document.addEventListener('click', (e) => {
-      if (mobileDrawer.classList.contains('open') &&
-          !mobileDrawer.contains(e.target) &&
-          !mobileToggle.contains(e.target)) {
+    // Close on Escape key press
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileDrawer.classList.contains('open')) {
         closeDrawer();
       }
     });
