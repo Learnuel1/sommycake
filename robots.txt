@@ -1,0 +1,16 @@
+# Robots.txt for SommyCake
+# Website: https://learnuel1.github.io/sommycake/
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/images/
+Allow: /assets/videos/
+Allow: /assets/favicon_io/
+
+# Disallow version control & editor directories
+Disallow: /.git/
+Disallow: /.qodo/
+
+# XML Sitemap for Googlebot and search engine crawlers
+Sitemap: https://learnuel1.github.io/sommycake/sitemap.xml

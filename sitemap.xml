@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://learnuel1.github.io/sommycake/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/hero-cake.jpg</image:loc>
+      <image:title>SommyCake Artisanal Handcrafted Celebration Cakes</image:title>
+      <image:caption>Signature celebration cakes by SommyCake in Oyigbo and Port Harcourt, Rivers State</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/birthday-cake.jpg</image:loc>
+      <image:title>Birthday Celebrations Cakes by SommyCake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/wedding-cake.jpg</image:loc>
+      <image:title>Wedding Centerpieces by SommyCake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/bento-cake.jpg</image:loc>
+      <image:title>Korean-Style Bento Cakes by SommyCake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/anniversary-cake.jpg</image:loc>
+      <image:title>Romantic Anniversary Cakes by SommyCake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/corporate-cake.jpg</image:loc>
+      <image:title>Corporate Event Cakes by SommyCake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://learnuel1.github.io/sommycake/assets/images/pexels/babyshower-cake.jpg</image:loc>
+      <image:title>Baby Shower Celebration Cakes by SommyCake</image:title>
+    </image:image>
+  </url>
+</urlset>
